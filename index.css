@@ -1,0 +1,107 @@
+* {
+  /* background-color: brown; */
+  font-family: "Gill Sans", sans-serif;
+}
+
+body {
+  /* background-color: chartreuse; */
+
+  margin: 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.bg {
+  /* background-position: cover; */
+  background-image: url(bg.jpeg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-filter: blur(5px); */
+  /* transition-property: background; */
+  /* height: 100%; */
+}
+
+#header {
+  align-items: center;
+  /* background-image: url(bg-img.jpeg); */
+  /* background-color: rgb(241 233 233); */
+  height: 80px;
+  display: flex;
+  color: rgb(250, 245, 245);
+  width: 50%;
+  font-size: 35px;
+  justify-content: center;
+  margin-top: -154px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.main {
+  align-items: center;
+  /* background-image: url(bg.jpeg); */
+  /* backdrop-filter: blur(20px); */
+  height: 140px;
+  margin-top: 146px;
+  display: flex;
+  justify-content: center;
+}
+
+#des {
+  line-height: 65px;
+  /* background-image: linear-gradient(to right, #8f8e8e, transparent), linear-gradient(to left, #e7e3e3, transparent), url(bg-img.jpeg); */
+  margin-top: -45px;
+  /* font-weight: 900; */
+  font-size: 34px;
+  color: white;
+  background: transparenr;
+}
+.description {
+  align-items: center;
+  text-align: center;
+  /* background-color: rgb(115, 126, 115); */
+  /* background-color: rgb(241 233 233); */
+  line-height: 45px;
+  font-size: 25px;
+  justify-content: center;
+  /* width: 50%; */
+  /* display: flex;l
+
+/* button {
+  background-color: darkmagenta;
+} */
+}
+.start-btn {
+  /* align-items: center;
+  justify-content: center; */
+  /* background-color: brown; */
+  margin-top: 40px;
+  display: flex;
+  text-decoration: none;
+}
+
+.start-game {
+  align-items: center;
+  justify-content: center;
+  /* background-color: transparent; */
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: black;
+  height: 50px;
+  width: 105px;
+  border-radius: 5px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.start-game:hover {
+  background-color: rgb(196, 190, 190);
+}
